@@ -1,4 +1,5 @@
-/*Общие стили*/
+/* General styles */
+
 html {
 	--text-color_1: hsl(210, 11%, 15%);
 	--blue_1: hsl(210, 100%, 15%);
@@ -30,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Georgia;
+	font-family: Corbel;
 }
 
 a:link {
@@ -54,7 +55,8 @@ p {
 	margin-bottom: 1.5em;
 }
 
-/*Шапка сайта*/
+/* Header */
+
 .nav-container__inner {
 	display: flex;
 	justify-content: space-between;
@@ -63,19 +65,15 @@ p {
 }
 
 a.home-link {
-	color: var(--red_1);
-	font-family: Georgia, serif;
+	color: var(--white);
+	font-family: Corbel, serif;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 .home-link .party {
-	font-size: 1.5rem;/*24px*/
+	font-size: 30px;
 	margin: 0.5em 0 0.5em;
-}
-
-.home-link .slogan {
-	font-size: 0.5rem;
 }
 
 .top-nav {
@@ -102,9 +100,10 @@ a.home-link {
 	background-color: var(--red_1);
 }
 
-/*Hero область*/
+/* Hero area */
+
 .hero {
-	background: url(capitalism.webp);
+	background: url(blueprint.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;

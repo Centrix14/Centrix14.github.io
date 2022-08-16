@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Leto Library: Library for working with singly linked lists</title>
+<title>Leto Library: [leto-list] Library for working with singly linkedlists</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -67,7 +67,7 @@ $(function() {
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Library for working with singly linked lists</div>  </div>
+<div class="title">[leto-list] Library for working with singly linkedlists</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
@@ -82,7 +82,7 @@ Macros</h2></td></tr>
 <tr class="memitem:gafcb812cd97fd57904855747e659c960e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#gafcb812cd97fd57904855747e659c960e">LETO_T_IFUNC_NODE</a>(name)&#160;&#160;&#160;void (*name)(<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a>*)</td></tr>
 <tr class="memdesc:gafcb812cd97fd57904855747e659c960e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of element processing function.  <a href="#gafcb812cd97fd57904855747e659c960e">More...</a><br /></td></tr>
 <tr class="separator:gafcb812cd97fd57904855747e659c960e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga15ffca07fa1d4710809b7eed675f8937"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#ga15ffca07fa1d4710809b7eed675f8937">LETO_T_IFUNC_DATA</a>(name)&#160;&#160;&#160;void (*name)(void*)</td></tr>
+<tr class="memitem:ga15ffca07fa1d4710809b7eed675f8937"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#ga15ffca07fa1d4710809b7eed675f8937">LETO_T_IFUNC_DATA</a>(name)&#160;&#160;&#160;void (*name)(<a class="el" href="group__leto__type.html#ga24ac1cfdf82f9814940d98bc4a92cdb8">common</a>)</td></tr>
 <tr class="memdesc:ga15ffca07fa1d4710809b7eed675f8937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of element data processing function.  <a href="#ga15ffca07fa1d4710809b7eed675f8937">More...</a><br /></td></tr>
 <tr class="separator:ga15ffca07fa1d4710809b7eed675f8937"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -97,39 +97,39 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga7f63518c4e6742f32d97b351faaf14ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#ga7f63518c4e6742f32d97b351faaf14ff">leto_list_init_node</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *next, void *data)</td></tr>
-<tr class="memdesc:ga7f63518c4e6742f32d97b351faaf14ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function initializes the list item.  <a href="#ga7f63518c4e6742f32d97b351faaf14ff">More...</a><br /></td></tr>
-<tr class="separator:ga7f63518c4e6742f32d97b351faaf14ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga349ae9f5566c811aabac498bbf1798c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#ga349ae9f5566c811aabac498bbf1798c1">leto_list_init_node</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *next, <a class="el" href="group__leto__type.html#ga24ac1cfdf82f9814940d98bc4a92cdb8">common</a> data)</td></tr>
+<tr class="memdesc:ga349ae9f5566c811aabac498bbf1798c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function initializes the list item.  <a href="#ga349ae9f5566c811aabac498bbf1798c1">More...</a><br /></td></tr>
+<tr class="separator:ga349ae9f5566c811aabac498bbf1798c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga13e004ac20bf100622f4f56ff1879524"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#ga13e004ac20bf100622f4f56ff1879524">leto_list_deinit_node</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *deinitialized_node)</td></tr>
 <tr class="memdesc:ga13e004ac20bf100622f4f56ff1879524"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function of freeing previously allocated memory.  <a href="#ga13e004ac20bf100622f4f56ff1879524">More...</a><br /></td></tr>
 <tr class="separator:ga13e004ac20bf100622f4f56ff1879524"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac43451b8c6baa7eb8b21278effc24487"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#gac43451b8c6baa7eb8b21278effc24487">leto_list_add_node</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *parent_node, void *data)</td></tr>
-<tr class="memdesc:gac43451b8c6baa7eb8b21278effc24487"><td class="mdescLeft">&#160;</td><td class="mdescRight">List extension function. Adds a new element to the end.  <a href="#gac43451b8c6baa7eb8b21278effc24487">More...</a><br /></td></tr>
-<tr class="separator:gac43451b8c6baa7eb8b21278effc24487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaed3bdecf1b1007c723e3b5f21ba230e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#gaed3bdecf1b1007c723e3b5f21ba230e0">leto_list_add_node</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *parent_node, <a class="el" href="group__leto__type.html#ga24ac1cfdf82f9814940d98bc4a92cdb8">common</a> data)</td></tr>
+<tr class="memdesc:gaed3bdecf1b1007c723e3b5f21ba230e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">List extension function. Adds a new element to the end.  <a href="#gaed3bdecf1b1007c723e3b5f21ba230e0">More...</a><br /></td></tr>
+<tr class="separator:gaed3bdecf1b1007c723e3b5f21ba230e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf2df37b453399a8c430dbd063b23c669"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#gaf2df37b453399a8c430dbd063b23c669">leto_list_get_last</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *list)</td></tr>
 <tr class="memdesc:gaf2df37b453399a8c430dbd063b23c669"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the last item in the list.  <a href="#gaf2df37b453399a8c430dbd063b23c669">More...</a><br /></td></tr>
 <tr class="separator:gaf2df37b453399a8c430dbd063b23c669"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab578afda6faf0d857c59c76a62fbb528"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#gab578afda6faf0d857c59c76a62fbb528">leto_list_expand_list</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *list, void *data)</td></tr>
-<tr class="memdesc:gab578afda6faf0d857c59c76a62fbb528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expands the list by adding a new element to it.  <a href="#gab578afda6faf0d857c59c76a62fbb528">More...</a><br /></td></tr>
-<tr class="separator:gab578afda6faf0d857c59c76a62fbb528"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab226137ee8386f7c825128d971b0702b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#gab226137ee8386f7c825128d971b0702b">leto_list_set_data</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *node, void *data)</td></tr>
-<tr class="memdesc:gab226137ee8386f7c825128d971b0702b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns new data to the element.  <a href="#gab226137ee8386f7c825128d971b0702b">More...</a><br /></td></tr>
-<tr class="separator:gab226137ee8386f7c825128d971b0702b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7fc426dd036e460caa128a8586871858"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#ga7fc426dd036e460caa128a8586871858">leto_list_expand_list</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *list, <a class="el" href="group__leto__type.html#ga24ac1cfdf82f9814940d98bc4a92cdb8">common</a> data)</td></tr>
+<tr class="memdesc:ga7fc426dd036e460caa128a8586871858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expands the list by adding a new element to it.  <a href="#ga7fc426dd036e460caa128a8586871858">More...</a><br /></td></tr>
+<tr class="separator:ga7fc426dd036e460caa128a8586871858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e8bdf8857ce3b70a82d19a9b38f836c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#ga5e8bdf8857ce3b70a82d19a9b38f836c">leto_list_set_data</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *node, <a class="el" href="group__leto__type.html#ga24ac1cfdf82f9814940d98bc4a92cdb8">common</a> data)</td></tr>
+<tr class="memdesc:ga5e8bdf8857ce3b70a82d19a9b38f836c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns new data to the element.  <a href="#ga5e8bdf8857ce3b70a82d19a9b38f836c">More...</a><br /></td></tr>
+<tr class="separator:ga5e8bdf8857ce3b70a82d19a9b38f836c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafe77e18f830bc5ac7427214d1cc5d3b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#gafe77e18f830bc5ac7427214d1cc5d3b4">leto_list_iterator</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *list, <a class="el" href="group__leto__list.html#gafcb812cd97fd57904855747e659c960e">LETO_T_IFUNC_NODE</a>(node_func), <a class="el" href="group__leto__list.html#ga15ffca07fa1d4710809b7eed675f8937">LETO_T_IFUNC_DATA</a>(data_func))</td></tr>
 <tr class="memdesc:gafe77e18f830bc5ac7427214d1cc5d3b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator function.  <a href="#gafe77e18f830bc5ac7427214d1cc5d3b4">More...</a><br /></td></tr>
 <tr class="separator:gafe77e18f830bc5ac7427214d1cc5d3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga35e0eb6d2f8ba0b1971e67325e2c9438"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#ga35e0eb6d2f8ba0b1971e67325e2c9438">leto_list_foreach</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *list, <a class="el" href="group__leto__list.html#ga15ffca07fa1d4710809b7eed675f8937">LETO_T_IFUNC_DATA</a>(data_func))</td></tr>
 <tr class="memdesc:ga35e0eb6d2f8ba0b1971e67325e2c9438"><td class="mdescLeft">&#160;</td><td class="mdescRight">The wrapper function over the iterator allows you to work only with the data of each element.  <a href="#ga35e0eb6d2f8ba0b1971e67325e2c9438">More...</a><br /></td></tr>
 <tr class="separator:ga35e0eb6d2f8ba0b1971e67325e2c9438"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaac084f01aafe159652e71669ed172708"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#gaac084f01aafe159652e71669ed172708">leto_list_get_by_index</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *list, unsigned int pos)</td></tr>
-<tr class="memdesc:gaac084f01aafe159652e71669ed172708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an element with the corresponding index.  <a href="#gaac084f01aafe159652e71669ed172708">More...</a><br /></td></tr>
-<tr class="separator:gaac084f01aafe159652e71669ed172708"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaec2a185734fe4b77b87e38db29f31c09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#gaec2a185734fe4b77b87e38db29f31c09">leto_list_insert_node</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *list, <a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *node, unsigned int pos)</td></tr>
-<tr class="memdesc:gaec2a185734fe4b77b87e38db29f31c09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts an item into the list.  <a href="#gaec2a185734fe4b77b87e38db29f31c09">More...</a><br /></td></tr>
-<tr class="separator:gaec2a185734fe4b77b87e38db29f31c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5fc0a855154ae48ce7b070064d0f3ad1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#ga5fc0a855154ae48ce7b070064d0f3ad1">leto_list_eject_node</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *list, unsigned int pos)</td></tr>
-<tr class="memdesc:ga5fc0a855154ae48ce7b070064d0f3ad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an item from the list.  <a href="#ga5fc0a855154ae48ce7b070064d0f3ad1">More...</a><br /></td></tr>
-<tr class="separator:ga5fc0a855154ae48ce7b070064d0f3ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga51fc53235b16a5ea3085fd9ba880fddc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#ga51fc53235b16a5ea3085fd9ba880fddc">leto_list_get_by_index</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *list, <a class="el" href="group__leto__type.html#ga85719e6a5d4ddcd2e59f693d05a49320">position</a> pos)</td></tr>
+<tr class="memdesc:ga51fc53235b16a5ea3085fd9ba880fddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an element with the corresponding index.  <a href="#ga51fc53235b16a5ea3085fd9ba880fddc">More...</a><br /></td></tr>
+<tr class="separator:ga51fc53235b16a5ea3085fd9ba880fddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad7f486bff2fa5c745ecee4770c58c3f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#gad7f486bff2fa5c745ecee4770c58c3f7">leto_list_insert_node</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *list, <a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *node, <a class="el" href="group__leto__type.html#ga85719e6a5d4ddcd2e59f693d05a49320">position</a> pos)</td></tr>
+<tr class="memdesc:gad7f486bff2fa5c745ecee4770c58c3f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts an item into the list.  <a href="#gad7f486bff2fa5c745ecee4770c58c3f7">More...</a><br /></td></tr>
+<tr class="separator:gad7f486bff2fa5c745ecee4770c58c3f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga99ae891692b821326f560d90ec89cd6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__leto__list.html#ga99ae891692b821326f560d90ec89cd6a">leto_list_eject_node</a> (<a class="el" href="group__leto__list.html#ga32567236cc5cd28cdb36d8c8debdc10b">leto_t_list</a> *list, <a class="el" href="group__leto__type.html#ga85719e6a5d4ddcd2e59f693d05a49320">position</a> pos)</td></tr>
+<tr class="memdesc:ga99ae891692b821326f560d90ec89cd6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an item from the list.  <a href="#ga99ae891692b821326f560d90ec89cd6a">More...</a><br /></td></tr>
+<tr class="separator:ga99ae891692b821326f560d90ec89cd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -144,7 +144,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">name</td><td>)</td>
-          <td>&#160;&#160;&#160;void (*name)(void*)</td>
+          <td>&#160;&#160;&#160;void (*name)(<a class="el" href="group__leto__type.html#ga24ac1cfdf82f9814940d98bc4a92cdb8">common</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -152,7 +152,7 @@ Functions</h2></td></tr>
 <p>Type of element data processing function. </p>
 <p>A macro is a type of function that processes the data of a list item. Is taken as an argument by the iterator. </p>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8h_source.html#l00030">30</a> of file <a class="el" href="leto-list_8h_source.html">leto-list.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8h_source.html#l00031">31</a> of file <a class="el" href="leto-list_8h_source.html">leto-list.h</a>.</p>
 
 </div>
 </div>
@@ -175,7 +175,7 @@ Functions</h2></td></tr>
 <p>Type of element processing function. </p>
 <p>A macro is a type of function that processes a list item. Is taken as an argument by the iterator. </p>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8h_source.html#l00022">22</a> of file <a class="el" href="leto-list_8h_source.html">leto-list.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8h_source.html#l00023">23</a> of file <a class="el" href="leto-list_8h_source.html">leto-list.h</a>.</p>
 
 </div>
 </div>
@@ -195,7 +195,7 @@ Functions</h2></td></tr>
 <p>typedef for <b>leto_list_list_t</b> </p>
 <p>The leto_t_list type (abbreviation for __leto_list_list_t___) is intended for use inside the library. </p>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8h_source.html#l00051">51</a> of file <a class="el" href="leto-list_8h_source.html">leto-list.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8h_source.html#l00052">52</a> of file <a class="el" href="leto-list_8h_source.html">leto-list.h</a>.</p>
 
 </div>
 </div>
@@ -212,15 +212,15 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>typdef for <b>leto_list_list_t</b> </p>
-<p>List (abbreviation for <b>leto_list_list_t</b>)is intended for use outside the library, can be replaced by leto_t_list. </p>
+<p>List (abbreviation for <b>leto_list_list_t</b>) is intended for use outside the library, can be replaced by leto_t_list. </p>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8h_source.html#l00059">59</a> of file <a class="el" href="leto-list_8h_source.html">leto-list.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8h_source.html#l00060">60</a> of file <a class="el" href="leto-list_8h_source.html">leto-list.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gac43451b8c6baa7eb8b21278effc24487"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac43451b8c6baa7eb8b21278effc24487">&#9670;&nbsp;</a></span>leto_list_add_node()</h2>
+<a id="gaed3bdecf1b1007c723e3b5f21ba230e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed3bdecf1b1007c723e3b5f21ba230e0">&#9670;&nbsp;</a></span>leto_list_add_node()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234,7 +234,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__leto__type.html#ga24ac1cfdf82f9814940d98bc4a92cdb8">common</a>&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
@@ -255,7 +255,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>New tail of the list (new element) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00066">66</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00069">69</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
 
 </div>
 </div>
@@ -284,12 +284,12 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section warning"><dt>Warning</dt><dd>Remember that passing pointers to memory that has not been allocated to the function is dangerous and may cause the application to crash. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00052">52</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00054">54</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
 
 </div>
 </div>
-<a id="ga5fc0a855154ae48ce7b070064d0f3ad1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5fc0a855154ae48ce7b070064d0f3ad1">&#9670;&nbsp;</a></span>leto_list_eject_node()</h2>
+<a id="ga99ae891692b821326f560d90ec89cd6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga99ae891692b821326f560d90ec89cd6a">&#9670;&nbsp;</a></span>leto_list_eject_node()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -303,7 +303,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__leto__type.html#ga85719e6a5d4ddcd2e59f693d05a49320">position</a>&#160;</td>
           <td class="paramname"><em>pos</em>&#160;</td>
         </tr>
         <tr>
@@ -324,12 +324,12 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The withdrawn element </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00213">213</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00219">219</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
 
 </div>
 </div>
-<a id="gab578afda6faf0d857c59c76a62fbb528"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab578afda6faf0d857c59c76a62fbb528">&#9670;&nbsp;</a></span>leto_list_expand_list()</h2>
+<a id="ga7fc426dd036e460caa128a8586871858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7fc426dd036e460caa128a8586871858">&#9670;&nbsp;</a></span>leto_list_expand_list()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -343,7 +343,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__leto__type.html#ga24ac1cfdf82f9814940d98bc4a92cdb8">common</a>&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
@@ -365,7 +365,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to the created element</dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Remember that this function modifies the list, it is not pure </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00101">101</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00104">104</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
 
 </div>
 </div>
@@ -412,12 +412,12 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00161">161</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00165">165</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
 
 </div>
 </div>
-<a id="gaac084f01aafe159652e71669ed172708"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaac084f01aafe159652e71669ed172708">&#9670;&nbsp;</a></span>leto_list_get_by_index()</h2>
+<a id="ga51fc53235b16a5ea3085fd9ba880fddc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga51fc53235b16a5ea3085fd9ba880fddc">&#9670;&nbsp;</a></span>leto_list_get_by_index()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -431,7 +431,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__leto__type.html#ga85719e6a5d4ddcd2e59f693d05a49320">position</a>&#160;</td>
           <td class="paramname"><em>pos</em>&#160;</td>
         </tr>
         <tr>
@@ -452,7 +452,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Element with the corresponding index </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00172">172</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00177">177</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
 
 </div>
 </div>
@@ -481,12 +481,12 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to the last item in the list </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00082">82</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00085">85</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
 
 </div>
 </div>
-<a id="ga7f63518c4e6742f32d97b351faaf14ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7f63518c4e6742f32d97b351faaf14ff">&#9670;&nbsp;</a></span>leto_list_init_node()</h2>
+<a id="ga349ae9f5566c811aabac498bbf1798c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga349ae9f5566c811aabac498bbf1798c1">&#9670;&nbsp;</a></span>leto_list_init_node()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -500,7 +500,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__leto__type.html#ga24ac1cfdf82f9814940d98bc4a92cdb8">common</a>&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
@@ -522,12 +522,12 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to new element</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>In case of an error (for example, if memory could not be allocated), the function prints a message to the standard error stream (stderr), after which it returns NULL </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00031">31</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00032">32</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
 
 </div>
 </div>
-<a id="gaec2a185734fe4b77b87e38db29f31c09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaec2a185734fe4b77b87e38db29f31c09">&#9670;&nbsp;</a></span>leto_list_insert_node()</h2>
+<a id="gad7f486bff2fa5c745ecee4770c58c3f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad7f486bff2fa5c745ecee4770c58c3f7">&#9670;&nbsp;</a></span>leto_list_insert_node()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -547,7 +547,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__leto__type.html#ga85719e6a5d4ddcd2e59f693d05a49320">position</a>&#160;</td>
           <td class="paramname"><em>pos</em>&#160;</td>
         </tr>
         <tr>
@@ -568,7 +568,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00195">195</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00200">200</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
 
 </div>
 </div>
@@ -615,12 +615,12 @@ Functions</h2></td></tr>
 </dl>
 <p>A general function for sorting through all the elements of the list. Allows you to apply the specified functions not only to the data, but also to the list items themselves </p>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00137">137</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00141">141</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
 
 </div>
 </div>
-<a id="gab226137ee8386f7c825128d971b0702b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab226137ee8386f7c825128d971b0702b">&#9670;&nbsp;</a></span>leto_list_set_data()</h2>
+<a id="ga5e8bdf8857ce3b70a82d19a9b38f836c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5e8bdf8857ce3b70a82d19a9b38f836c">&#9670;&nbsp;</a></span>leto_list_set_data()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -634,7 +634,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__leto__type.html#ga24ac1cfdf82f9814940d98bc4a92cdb8">common</a>&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
@@ -655,7 +655,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Using this function may seem redundant, but it is not. It should be used wherever possible, because in the future, it is possible to expand this functionality, overload it (for example, adding logging) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00119">119</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="leto-list_8c_source.html#l00122">122</a> of file <a class="el" href="leto-list_8c_source.html">leto-list.c</a>.</p>
 
 </div>
 </div>

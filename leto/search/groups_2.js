@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['simple_20unit_20testing_20system',['Simple unit testing system',['../group__leto__test.html',1,'']]]
+  ['working_20with_20dynamic_20libraries',['Working with dynamic libraries',['../group__leto__so.html',1,'']]]
 ];

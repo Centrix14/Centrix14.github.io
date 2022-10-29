@@ -1,7 +1,0 @@
-<map id="leto&#45;list/leto&#45;list.h" name="leto&#45;list/leto&#45;list.h">
-<area shape="rect" id="node2" href="$leto-list_8c.html" title="The main file of the leto&#45;list library, which implements singly linked lists and operations with them..." alt="" coords="5,80,143,107"/>
-<area shape="rect" id="node3" href="$leto-list_2test_8c.html" title="File contains tests for leto&#45;list library. " alt="" coords="167,80,279,107"/>
-<area shape="rect" id="node4" href="$leto-utsf_8c.html" title="This file provides an implementation of the UTSF features. " alt="" coords="243,155,390,181"/>
-<area shape="rect" id="node5" href="$leto-utsf_8h.html" title="This file provides an interface to the UTSF library. " alt="" coords="355,80,503,107"/>
-<area shape="rect" id="node6" href="$leto-utsf_2test_8c_source.html" title="leto&#45;utsf/test.c" alt="" coords="414,155,531,181"/>
-</map>

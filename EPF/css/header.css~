@@ -1,0 +1,85 @@
+/* основные свойства заголовка */
+.header__container {
+	font-family: "Fira Code", sans;
+	
+	background-color: #5f9240;
+	color: #e3f0e0;
+
+	display: flex;
+	justify-content: space-between;
+
+	align-items: center;
+}
+
+/* свойства секции логотипа и названия */
+.header__logo_and_name {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.epf__logo {
+	margin-left: 15px;
+	margin-right: 10px;
+}
+.header__name {
+	font-size: 36px;
+}
+
+/* свойства секции навигации */
+.header__navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__nav-btn {
+	font-size: 16px;
+	font-weight: 500;
+	
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	margin-right: 15px;
+
+	background-color: #e3f0e0;
+	color: #3a542a;
+
+	padding: 10px;
+	border-radius: 10px;
+}
+.header__nav-btn:last-child {
+	margin-right: 0px;
+}
+.header__nav-btn:hover {
+	background-color: #de3c53;
+	color: white;
+}
+
+/* свойства секции помощи */
+.header__help_us {
+	margin-right: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__help_us-btn {
+	font-size: 16px;
+	font-weight: 500;
+	
+	text-decoration: none;
+	text-transform: uppercase;
+
+	margin-right: 15px;
+	
+	background-color: #dcde3d;
+	color: #3a542a;
+
+	padding: 10px;
+	border-radius: 10px;
+}
+.header__help_us-btn:last-child {
+	margin-right: 10px;
+}
+.header__help_us-btn:hover {
+	background-color: #32a6b9;
+	color: white;
+}

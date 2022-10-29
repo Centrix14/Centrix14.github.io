@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="css/style.css">
+	
+	<link type="image/png" sizes="16x16" rel="icon" href="img/logo_16.png">
+	<link type="image/png" sizes="32x32" rel="icon" href="img/logo_32.png">
+	<link type="image/png" sizes="96x96" rel="icon" href="img/logo_96.png">
+
+	<title>ФЭП: Инструменты</title>
+  </head>
+
+  <body>
+	<header>
+	  <div class="header__container">
+		<div class="header__logo_and_name">
+		  <div class="epf__logo">
+			<a href="index.html">
+			  <img src="img/logo.svg" alt="EPF logo" />
+			</a>
+		  </div>
+
+		  <div class="header__name">
+			<p>Фонд Эволюционного Программирования</p>
+		  </div>
+		</div>
+
+		<div class="header__navigation">
+		  <a class="header__nav-btn" href="manifest.html">Манифест</a>
+		  <a class="header__nav-btn" href="research.html">Исследования</a>
+		  <a class="header__nav-btn" href="tools.html">Инструменты</a>
+		  <a class="header__nav-btn" href="activity.html">Деятельность фонда</a>
+		</div>
+
+		<div class="header__help_us">
+		  <a class="header__help_us-btn" href="donations.html">Пожертвования</a>
+		  <a class="header__help_us-btn" href="join.html">Присоединиться</a>
+		</div>
+	  </div>
+	</header>
+
+	<footer class="footer">
+	  <div class="footer__content">
+		<p class="footer__text">НКО «Фонд Эволюционного программирования»</p>
+		<p class="footer__text">Тексты статей, манифестов и иная организационная информация распространяются по лецензии «Creative Commons Attribution-ShareAlike» (CC BY-SA)</p>
+		<p class="footer__text">Исходные тексты продуктов, созданных ФЭП распространяются по лецензии GNU GPL v3</p>
+	  </div>
+	</footer>
+  </body>
+</html>

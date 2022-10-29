@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+@import url("header.css");
+@import url("footer.css");
+@import url("input.css");
+
+/* основные свойства страницы */
+body {
+	margin: 0 auto;
+	background-color: #e3f0e0;
+}
+
+/* свойства общие для всех страниц */
+.main-text {
+	font-family: "Fira Code", sans;
+	font-size: 18px;
+
+	color: #5c5a7e;
+
+	margin-left: 15px;
+
+	max-width: 800px;
+}
+
+.inline-link {
+	color: #19551d;
+}
+
+.text-separator {
+	font-family: Georgia;
+	font-size: 35px;
+	
+	color: #acb7aa;
+}
